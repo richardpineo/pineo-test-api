@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using PineoTest.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace pineo_test_api
+namespace PineoTest
 {
     public class Startup
     {

@@ -1,8 +1,8 @@
 ﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:19749",
       "sslPort": 44385
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "pineo_test_api": {
+    "PineoTest": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

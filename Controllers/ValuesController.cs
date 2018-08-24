@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace pineo_test_api.Controllers
+namespace PineoTest.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
