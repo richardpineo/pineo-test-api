@@ -27,8 +27,6 @@ namespace PineoTest
         public void Configure(IApplicationBuilder app)
         {
             app.UseMvc();
-
-            await context.Response.WriteAsync("Hello World! Deploy to Azure.");
         }
     }
 }

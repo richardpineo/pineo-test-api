@@ -5,7 +5,7 @@ using PineoTest.Models;
 
 namespace HelloWorldApi.Controllers
 {
-    [Route("api/helloworld")]
+    [Route("api/hw")]
     [ApiController]
     public class HelloWorldController : ControllerBase
     {
