@@ -1,0 +1,6 @@
+bin/
+.vscode/
+.vs/
+obj/
+*.sln
+*.user
