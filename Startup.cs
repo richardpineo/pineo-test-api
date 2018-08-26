@@ -13,7 +13,7 @@ namespace PineoTest
         {
             services.AddDbContext<HelloWorldContext>(opt =>
                 opt.UseInMemoryDatabase("HelloWorld"));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_0);
 
             services.Configure<ApiBehaviorOptions>(options =>
                   {
