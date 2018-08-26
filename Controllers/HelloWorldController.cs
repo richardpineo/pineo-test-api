@@ -9,7 +9,7 @@ namespace HelloWorldApi.Controllers
     [ApiController]
     public class HelloWorldController : ControllerBase
     {
-        private readonly HelloWorldContext _context;
+        readonly HelloWorldContext _context;
 
         public HelloWorldController(HelloWorldContext context)
         {
